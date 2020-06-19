@@ -1,8 +1,8 @@
-import React, { createElement, useState } from 'react';
-import { Comment, Tooltip, Avatar } from 'antd';
+import React, {createElement, useState} from 'react';
+import {Comment, Tooltip, Avatar} from 'antd';
 import moment from 'moment';
-import { DislikeOutlined, LikeOutlined, DislikeFilled, LikeFilled } from '@ant-design/icons';
-import "antd/dist/antd.css"
+import {DislikeOutlined, LikeOutlined, DislikeFilled, LikeFilled} from '@ant-design/icons';
+// import "antd/dist/antd.css"
 
 const Demo = () => {
 	const [likes, setLikes] = useState(0);
@@ -54,9 +54,7 @@ const Demo = () => {
 			content={
 				<p>
 					We supply a series of design principles, practical patterns and high quality design
-					resources (Sketch and Axure), to help people create their product prototypes beautifully
-					and efficiently.
-				</p>
+					resources (Sketch and Axure), to help people create their product prototypes beautifully and efficiently.</p>
 			}
 			datetime={
 				<Tooltip title={moment().format('YYYY-MM-DD HH:mm:ss')}>
