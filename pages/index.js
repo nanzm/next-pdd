@@ -1,4 +1,5 @@
-import App from "./app"
+import React from "react"
+import App from "./view/app"
 import Head from "next/head"
 
 export default () => {
