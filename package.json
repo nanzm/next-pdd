@@ -17,6 +17,7 @@
     "react-dom": "16.13.1"
   },
   "devDependencies": {
+    "@umijs/fabric": "^2.1.0",
     "@zeit/next-css": "^1.0.1",
     "@zeit/next-less": "^1.0.1",
     "dotenv": "^8.2.0",
